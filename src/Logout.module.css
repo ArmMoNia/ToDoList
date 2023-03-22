@@ -1,0 +1,21 @@
+.logout button {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  border: none;
+  width: 70px;
+  height: 50px;
+  cursor: pointer;
+  transition: ease-in-out 0.5s;
+}
+.logout button:hover {
+  background-color: lightcoral;
+  color: white;
+}
+@media only screen and (max-width: 390px) {
+  .logout button {
+    font-size: 14px;
+    width: 60px;
+    height: 30px;
+  }
+}

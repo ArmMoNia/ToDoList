@@ -1,0 +1,128 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 1em;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #a0d9ef;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 100px auto 0px auto;
+  background-color: rgb(255, 255, 255);
+  width: 30%;
+  height: 200px;
+  border-radius: 5px;
+  line-height: 30px;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.39);
+}
+
+.login-info {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.login-info label {
+  width: 90px;
+  margin-right: 20px;
+}
+
+.login-info input {
+  width: 280px;
+  border: 1px solid rgba(128, 128, 128, 0.377);
+  border-radius: 5px;
+}
+
+.login-info input:focus {
+  outline-color: #a0d9ef;
+}
+
+.login-btn {
+  height: 35px;
+  width: 90px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: ease-in-out 0.5s;
+}
+
+.login-btn:hover {
+  background-color: #a0d9ef;
+  color: white;
+}
+
+.hidden {
+  display: none;
+}
+.note {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  color: rgba(0, 0, 0, 0.651);
+}
+@media only screen and (max-width: 1650px) {
+  .login-container {
+    width: 40%;
+    margin: 10px auto;
+  }
+}
+@media only screen and (max-width: 1460px) {
+  .login-container {
+    width: 40%;
+    margin: 10px auto;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  .login-container {
+    width: 45%;
+    margin: 10px auto;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .login-container {
+    width: 60%;
+    margin: 10px auto;
+  }
+}
+@media only screen and (max-width: 760px) {
+  .login-container {
+    width: 80%;
+    margin: 10px auto;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .login-container {
+    margin: 10px auto;
+    /* width: 80%; */
+    height: 200px;
+  }
+
+  .login-info label {
+    font-size: 12px;
+    width: 40px;
+    margin-right: 25px;
+  }
+
+  .login-info input {
+    font-size: 12px;
+    width: 200px;
+    border-radius: 5px;
+  }
+
+  .note {
+    font-size: 12px;
+    margin: 20px;
+  }
+}
