@@ -23,7 +23,7 @@ const Login = (props) => {
     <div>
       <form onSubmit={onSubmitHander} className={classes[`login-container`]}>
         <div className={classes[`login-info`]}>
-          <label htmlFor="email">E-Mail</label>
+          <label htmlFor="email">Username</label>
           <input
             type="text"
             value={enteredEmail}

@@ -6,7 +6,7 @@ import Todo from "./Todo";
 import Logout from "./Logout";
 
 const userNameForLog = {
-  user: "narupanarts@gmail.com",
+  user: "aarm",
   password: "1234567",
   task: [],
 };
