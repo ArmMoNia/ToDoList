@@ -30,6 +30,7 @@ const Todo = () => {
   const delTaskHandler = (index) => {
     const keyName = `Task number: ${index + 1}`;
     localStorage.removeItem(keyName);
+
     const updatedTasks = allMyTask.filter((task, i) => i !== index);
     setAllMyTask(updatedTasks);
 
